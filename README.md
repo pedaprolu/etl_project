@@ -2,8 +2,11 @@ ETL Data Pipeline Project
 his project is an ETL data pipeline that automates moving and preparing data for analysis.
 
 1)Extract: Data is pulled from AWS S3 where raw files are stored.
+
 2)Transform: Using Python (pandas), the data is cleaned, formatted, and processed to match the analysis requirements.
+
 3)Load: The transformed data is loaded into a PostgreSQL database for structured storage.
+
  Visualization: The PostgreSQL data is then connected to Power BI to create interactive dashboards and reports.
 This setup makes it easy to handle large datasets, keep data consistent, and update visualizations automatically whenever new data arrives in S3
 
