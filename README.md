@@ -24,20 +24,9 @@ Modular scripts for easy updates.
 
 🛠 Tech Stack
 Language: Python 3.x
-
 Libraries: pandas, requests
-
 Database: PostgreSQL
 
-
-📂 Project Structure
-
-🔄 ETL Workflow
-
-    A[Data Sources] -->|Extract| B[Raw Data]
-    B -->|Transform| C[Clean Data]
-    C -->|Load| D[Database / Data Warehouse]
-    D -->|Use| E[BI Tools / Dashboards]
 
 After: Fully cleaned dataset stored in PostgreSQL, ready for Tableau / Power BI
 
